@@ -15,13 +15,7 @@ function Game() {
   const [guesses, setGuesses] = React.useState([]);
 
   function recordGuess(word) {
-    setGuesses([
-      ...guesses,
-      {
-        id: Math.random(),
-        word,
-      },
-    ]);
+    setGuesses([...guesses, word]);
   }
 
   return (
