@@ -4,7 +4,7 @@ function GameBanner({ result, numOfGuesses, answer }) {
   return result === "win" ? (
     <div className="happy banner">
       <p>
-        <strong>Congratulations!</strong> Got it in
+        <strong>Congratulations!</strong> Got it in{" "}
         <strong>{numOfGuesses} guesses</strong>.
       </p>
     </div>

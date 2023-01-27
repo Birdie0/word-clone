@@ -270,3 +270,9 @@ h1 {
   background-color: var(--color-warning);
   color: white;
 }
+
+.new-game {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+}

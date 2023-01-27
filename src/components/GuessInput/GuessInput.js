@@ -16,8 +16,6 @@ function GuessInput({ submitGuess, gameResult }) {
       return;
     }
 
-    console.log(word);
-
     submitGuess(word);
 
     setWord("");
