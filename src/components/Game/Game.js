@@ -3,6 +3,7 @@ import React from "react";
 import GuessResults from "../GuessResults";
 import GuessInput from "../GuessInput";
 import GameBanner from "../GameBanner";
+import GameKeyboard from "../GameKeyboard";
 
 import { sample } from "../../utils";
 import { WORDS } from "../../data";
@@ -43,6 +44,7 @@ function Game() {
           answer={answer}
         />
       )}
+      <GameKeyboard guesses={guesses} answer={answer} />
     </>
   );
 }
